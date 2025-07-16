@@ -14,7 +14,6 @@ def main():
     subprocess.run([
         sys.executable, "-m", "streamlit", "run", "visibility_dashboard.py",
         "--server.headless", "false",
-        "--server.port", "8509"
     ])
 
 if __name__ == "__main__":
